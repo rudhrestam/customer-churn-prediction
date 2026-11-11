@@ -1,5 +1,7 @@
 # Customer Churn Prediction (Demo)
 
+![CI](https://github.com/rudhrestam/customer-churn-prediction/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A churn-modelling demo in the "customer 360" style: assemble features from transactions, engagement, and feedback sentiment, train a classifier, and turn the scores into a short daily-insights summary a business team can act on.
 
 > ⚠️ **Synthetic data only.** The script generates its own fake customer base with a fixed seed. No real customer data — anyone's — is used, and the patterns it "learns" are illustrative, not findings.
@@ -29,7 +31,7 @@ python churn_demo.py --customers 8000 # bigger base, same seed logic
 
 ## Tech stack
 
-Python · scikit-learn (RandomForest) · NumPy
+Python 3.10+ · scikit-learn (RandomForest) · NumPy
 
 ## What it demonstrates
 
